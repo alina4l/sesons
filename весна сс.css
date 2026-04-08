@@ -1,0 +1,139 @@
+
+h1{
+    background-color: rgb(230, 23, 168);
+    color: rgb(245, 245, 245);
+    padding: 25px; ;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(rgb(221, 15, 101),rgb(247, 152, 223));
+}
+p{
+    background-color: rgb(126, 228, 86);
+    color: rgb(233, 125, 243);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: fit-content;
+    margin-left: 20%;
+    font-size: 25px;
+    padding: 40px;
+    background: linear-gradient(rgb(186, 228, 202),green);
+}
+div{
+    background-color: rgb(236, 76, 151);
+    color: rgb(255, 255, 255);
+width:fit-content ;
+margin-left: 20%;
+font-size: 20px;
+
+}
+table{
+    padding: 20px;
+    border: 25px ridge rgb(179, 51, 111) ;
+    margin-bottom: 30%;
+    margin-left: 20%;
+    margin-top: 50px;
+    /* border-collapse: collapse; */
+    background: linear-gradient(rgb(221, 15, 101),green);
+   
+
+
+}
+td{
+    padding: 10px;
+    border: 15px solid lime; 
+    border-radius: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(15, 16, 17);
+    
+
+}
+caption{
+    background-color: rgb(76, 187, 76);
+    color: rgb(238, 238, 238);
+    padding: 40px; ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+td:hover{
+    background-color: rgb(228, 250, 228);
+
+}
+section{
+    background-color: rgb(230, 23, 168);
+    color: rgb(231, 182, 221);
+    padding: 25px; ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    
+    
+
+}
+#links{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(rgb(44, 235, 23),deeppink);
+    flex-direction: column;
+}
+a{
+    padding: 20px 20% ;
+    background-color: rgb(251, 149, 255);
+    color: rgb(250, 252, 252);
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    background-color: rgb(201, 23, 162);
+    transform: scale(2.1);
+    transition: all 1s;
+}
+#gal img{
+    width: 21%;
+    height: 500px;
+    transition: all 1s;
+    object-fit: cover;
+    border: 15px groove rgb(66, 224, 26)
+    
+
+
+}
+#gal{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+    background-color: deeppink;
+    
+}
+#gal img:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+#film{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+    background-color: deeppink;
+    background: linear-gradient(deeppink, rgb(44, 235, 23));
+    
+}
+video{
+    outline: 25px dashed rgb(243, 248, 168);
+    animation: border_anim 35 infinite alternate;
+}
+@keyframes border_anim { 
+    from{outline-width:25px;}
+    to{outline-width: 5px;}
+}
+iframe{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px;
+    background-color: deeppink;
+    background: linear-gradient( rgb(44, 235, 23),deeppink);
+    outline: 25px dashed rgb(243, 248, 168);
+    animation: border_anim 35 infinite alternate;
+}
